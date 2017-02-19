@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 93528216af33c0448997b7fbc5236f03
+timeCreated: 1486361556
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheetExplosion_0
+    21300002: spritesheetExplosion_1
+    21300004: spritesheetExplosion_2
+    21300006: spritesheetExplosion_3
+    21300008: spritesheetExplosion_4
+    21300010: spritesheetExplosion_5
+    21300012: spritesheetExplosion_6
+    21300014: spritesheetExplosion_7
+    21300016: spritesheetExplosion_8
+    21300018: spritesheetExplosion_9
+    21300020: spritesheetExplosion_10
+    21300022: spritesheetExplosion_11
+    21300024: spritesheetExplosion_12
+    21300026: spritesheetExplosion_13
+    21300028: spritesheetExplosion_14
+    21300030: spritesheetExplosion_15
+    21300032: spritesheetExplosion_16
+    21300034: spritesheetExplosion_17
+    21300036: spritesheetExplosion_18
+    21300038: spritesheetExplosion_19
+    21300040: spritesheetExplosion_20
+    21300042: spritesheetExplosion_21
+    21300044: spritesheetExplosion_22
+    21300046: spritesheetExplosion_23
+    21300048: spritesheetExplosion_24
+    21300050: spritesheetExplosion_25
+    21300052: spritesheetExplosion_26
+    21300054: spritesheetExplosion_27
+    21300056: spritesheetExplosion_28
+    21300058: spritesheetExplosion_29
+    21300060: spritesheetExplosion_30
+    21300062: spritesheetExplosion_31
+    21300064: spritesheetExplosion_32
+    21300066: spritesheetExplosion_33
+    21300068: spritesheetExplosion_34
+    21300070: spritesheetExplosion_35
+    21300072: spritesheetExplosion_36
+    21300074: spritesheetExplosion_37
+    21300076: spritesheetExplosion_38
+    21300078: spritesheetExplosion_39
+    21300080: spritesheetExplosion_40
+    21300082: spritesheetExplosion_41
+    21300084: spritesheetExplosion_42
+    21300086: spritesheetExplosion_43
+    21300088: spritesheetExplosion_44
+    21300090: spritesheetExplosion_45
+    21300092: spritesheetExplosion_46
+    21300094: spritesheetExplosion_47
+    21300096: spritesheetExplosion_48
+    21300098: spritesheetExplosion_49
+    21300100: spritesheetExplosion_50
+    21300102: spritesheetExplosion_51
+    21300104: spritesheetExplosion_52
+    21300106: spritesheetExplosion_53
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetExplosion_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 528
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 525
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 521
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 518
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_4
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 515
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 513
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 411
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 409
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 408
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 455
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 406
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 455
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 405
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_13
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 456
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 405
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 458
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 356
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 304
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 359
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 356
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 303
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 356
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 304
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_24
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 303
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_25
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 302
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 304
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_27
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 307
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 198
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 199
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 257
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_32
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 202
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_33
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 201
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 201
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_35
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 241
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 230
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 209
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_38
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 207
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_39
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 209
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 106
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 102
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_43
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 109
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_45
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 110
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_46
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 110
+        width: 88
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_47
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 114
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_48
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 109
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_49
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 109
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_51
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 16
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_52
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 17
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheetExplosion_53
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 18
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
