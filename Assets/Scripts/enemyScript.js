@@ -1,16 +1,17 @@
 ﻿// Public variable that contains the speed of the enemy
 var moveSpeed : int = 2;
-
+public var maxHealth : int = 100;	
+public var healthBar : UnityEngine.UI.Slider;  
 private var moveDirection : Vector3;
-private var animator : Animator;	
+private var health : int = maxHealth;
+
 
 // Function called when the enemy is created
 function Start () {
-	animator = GetComponent("Animator");
+	healthBar.value = health;
 }
 
 function Update(){
-	animator = GetComponent("Animator");
  	var currentPosition = transform.position;
 	var player = GameObject.FindGameObjectWithTag ("Player").transform;
 
@@ -28,7 +29,7 @@ function Update(){
 
 // Function called when the object goes out of the screen
 function OnBecameInvisible() {
-    // Destroy the enemy
+    //Destroy the enemy
     //Destroy(gameObject);
 } 
 
@@ -39,7 +40,7 @@ function OnTriggerEnter2D(obj) {
     // If the enemy collided with a bullet
     if (name == "bullet(Clone)") {
         // Destroy itself (the enemy) and the bullet
-        Destroy(gameObject);
+        takeDamage(50);
         Destroy(obj.gameObject);
     }
 
@@ -48,4 +49,17 @@ function OnTriggerEnter2D(obj) {
         // Destroy itself (the enemy) to keep things simple
         Destroy(gameObject);
     }
+
 } 
+
+function takeDamage(damage){
+
+	health -= damage;
+
+	//If player dies load main menu
+	if(health <= 0){
+    	Destroy(gameObject);
+	}
+
+	healthBar.value = health;
+}

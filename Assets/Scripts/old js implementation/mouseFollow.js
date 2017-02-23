@@ -6,6 +6,7 @@ public var sensitivity : int = 3;
 public var maxHealth : float = 100;
 public var PhaseDistance : int = 150;
 public var DistanceForPhase : int = 5;
+public var killCount : int = 0;
 
 private var health : float = maxHealth;
 private var currSpeed : int = 0;
