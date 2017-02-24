@@ -7,21 +7,30 @@ namespace completed{
 	public abstract class Fighter : MonoBehaviour {
 		public UnityEngine.UI.Slider healthBar;
 
-		public int health;
+       
+        public int maxHealth;
 		public int maxSpeed;
 		public int turnSpeed;
 		public int level;
 
-		public float speed;
+        [HideInInspector]
+        public double health;
+        [HideInInspector]
+        public float speed;
 
 
 		public void takeDamage(int damage){
 			health -= damage;
-			if (health <= 0) {
-				Destroy (gameObject);
-			}
-			healthBar.value = health;
+			healthBar.value = (int)health;
 		}
+
+        public void heal(double amount){
+            health += amount;
+            if (health > maxHealth){
+                health = maxHealth;
+            }
+            healthBar.value = (int)health;
+        }
 
 		public void setSpeed(float newSpeed){
 			speed = newSpeed;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace completed{
 
@@ -28,19 +29,22 @@ namespace completed{
 			collide.enabled = true;
 		}
 
-		void OnTriggerEnter2D(GameObject obj) {
+		void OnTriggerEnter2D(Collider2D obj) {
 			//Name of the object that collided with the enemy
 			var name = obj.gameObject.name;
 
 			if (name == "enemy(Clone)") {
 				takeDamage(25);
-			}
+                if(health <= 0) SceneManager.LoadScene("MainScene"); 
+            }
 
-		} 
+           
+
+        } 
 
 		// Use this for initialization
 		void Start () {
-			
+            health = maxHealth;
 		}
 	
 		// Update is called once per frame
@@ -75,6 +79,7 @@ namespace completed{
 				}
 
 			}
-		}
+
+        }
 	}
 }
