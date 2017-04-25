@@ -10,15 +10,16 @@ namespace completed
 
         // Use this for initialization
         void Start(){
-
+            health = maxHealth;
         }
 
         // Update is called once per frame
         void Update(){
-            var currentPosition = transform.position;
-            var player = GameObject.FindGameObjectWithTag("Player").transform;
+            Vector3 currentPosition = transform.position;
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            
 
-            Vector3 moveDirection = get2DDistanceVector(currentPosition, player.position);
+            Vector3 moveDirection = get2DDistanceVector(currentPosition, player.transform.position);
 
             //find the direction vector, aka make the length one
             if (moveDirection != Vector3.zero)
@@ -35,7 +36,15 @@ namespace completed
             if (name == "bullet(Clone)")
             {
                 takeDamage(25);
-                if (health <= 0) Destroy(gameObject);
+                if (health <= 0){
+                    //if an astroid is destoryed the player gains xp
+                    GameObject player = GameObject.FindGameObjectWithTag("Player");
+                    var playerInfo = player.GetComponent<Player>();
+                    playerInfo.gainXp(10);
+                    playerInfo.killCount++;
+                    playerInfo.setInfoText();
+                    Destroy(gameObject);
+                }
             }
 
             if (name == "spaceship")

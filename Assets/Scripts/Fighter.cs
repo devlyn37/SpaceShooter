@@ -11,8 +11,9 @@ namespace completed{
         public int maxHealth;
 		public int maxSpeed;
 		public int turnSpeed;
-		public int level;
 
+        [HideInInspector]
+        public int level;
         [HideInInspector]
         public double health;
         [HideInInspector]
